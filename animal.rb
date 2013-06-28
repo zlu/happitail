@@ -44,7 +44,8 @@ end
 
 # You are the manager at HappiTails animal shelter. You need to do the following:
 
-# * Manage the clients coming into the shelter. Track their names, ages, gender, kids and the number of pets they have.
+# * Manage the clients coming into the shelter. 
+# * Track their names, ages, gender, kids and the number of pets they have.
 
 
 

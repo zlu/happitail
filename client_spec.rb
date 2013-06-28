@@ -5,7 +5,15 @@ require_relative 'client'
 
 class ClientSpec
 	describe Client do
-		it 'has a name'
+		before do
+			@name = 'zlu'
+			@client = Client.new(@name)
+		end
+
+		it 'has a name' do
+			@client.name.should eq @name
+		end
+
 		it 'has an age'
 		it 'has a gender'
 		it 'has a list of animals'		
